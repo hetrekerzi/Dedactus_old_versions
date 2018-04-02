@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-angelco-crawler-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "debug": "NODE_ENV=debug node bin/www",
+    "test": "mocha --timeout 100000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jscs": "^3.0.7",
+    "log": "^1.4.0",
+    "nodejs-angelco-database": "git+https://github.com/videal/nodejs-angelco-database.git",
+    "phantom": "^4.0.4",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.1.1",
+    "mocha": "^3.4.2"
+  }
+}
